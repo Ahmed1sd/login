@@ -1,0 +1,73 @@
+    body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(to right, #1d3557, #457b9d);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    direction: rtl;
+    margin: 0;
+    text-align: center;
+    
+  }
+  
+  .container {
+    background-color: #2b2d42;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #00000080;
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #f1faee;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: right;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #f77f00;
+    text-align: center;
+  }
+  
+  #toggleText {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #toggleForm {
+    color: #a8dadc;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  #message {
+    margin-top: 10px;
+   }
